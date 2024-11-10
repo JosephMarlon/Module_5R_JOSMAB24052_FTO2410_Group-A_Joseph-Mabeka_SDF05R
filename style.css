@@ -51,4 +51,50 @@ p {
     outline: none;
 }
 
+/*button 1*/
+.btn-1{
+    transition:5s;
+    
+}
+.btn-1:hover{
+    background-color:blue;
+    font-weight: bold;
+    color: white;
+    
+}
+/*button 2*/
+.btn-2{
+    
+    animation-duration:shake;
+    transition: all 0.4s ease;
+    
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+  }
+  
+ 
+  .btn-2:active {
+    animation: shake 0.4s;
+  }
+
+/*button 3*/
+.btn-3{
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    background-color: blue;
+}
+.btn-3:focus {
+    transform: scale(1.5);
+  }   
+
+
+
+
+
 /* Add your custom styles for btn-1, btn-2, and btn-3 */

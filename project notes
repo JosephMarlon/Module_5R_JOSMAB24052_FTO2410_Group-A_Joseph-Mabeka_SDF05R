@@ -1,0 +1,21 @@
+For this project, I implemented three unique animation styles for buttons:
+
+Button 1: When clicked, the background color changes to blue and the text color turns white for better visibility.
+
+Button 2: This button shakes when clicked, adding a dynamic effect.
+
+Button 3: On click, this button grows in size and has a blue background.
+
+The most exciting aspect of this project was writing the code myself, as opposed to using pre-made styles on platforms like WordPress. It was rewarding to have the ability to create these animations from scratch.
+
+I utilized various techniques, including:
+
+Pseudo-elements: To add styles without extra markup.
+
+Translate: To move elements within the DOM.
+
+Transition: For smooth state changes.
+
+Transform: To scale, rotate, and move elements.
+
+@keyframes: To define animation sequences.
